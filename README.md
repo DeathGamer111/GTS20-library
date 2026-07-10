@@ -1,9 +1,18 @@
-# (GTS) Gauss-Token-Standard Library
+# GTS20 Library
 
-Standard implementation of a GTS20 Token with supporting Libraries.
+![Gauss Gang](assets/gauss-gang.png)
 
-## Description
+Reference Solidity library for the Gauss Token Standard 20 (GTS20). It provides a starting point for token implementations and supporting contract utilities within the Gauss ecosystem.
 
-This repo contains Solidity implementations for GTS-20 tokens, as the Gauss alternatives to ERC20, BEP-20, TRC-20, SPL, etc.
+## Structure
 
-Please use [OpenZeppelin contracts and libraries](https://github.com/OpenZeppelin/openzeppelin-contracts) for compatibility with new Solidity versions.
+- `contracts/` — GTS20 contracts and libraries
+- `scripts/` — development or deployment helpers
+
+## Using the library
+
+Review the contracts before integrating them into another project. Consumers should pin compatible Solidity and OpenZeppelin versions, add their own tests, and verify that token roles and supply rules match their application.
+
+## Status
+
+This repository is a historical reference implementation. For new work, use maintained OpenZeppelin primitives where possible and validate compiler compatibility.
